@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT Fashion Shop</title>
+
+    <!-- Loại bỏ các trang không xuất hiện FChat -->
+    <script>
+      if (!['/login', '/register', '/login/employee'].includes(window.location.pathname)) {
+        // Load script Fchat.vn
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://cdn.fchat.vn/assets/embed/webchat.js?id=65e1b45b42f1b516ba398b65';
+        script.async = true;
+        document.head.appendChild(script);
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="app" class="container-fluid"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <script type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript"
+      src="./src/assets/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./src/services/slick.slider.js"></script>
+  </body>
+
+  <style>
+
+  #app {
+    width: 100%;
+    --bs-gutter-x: 0;
+  
+  }
+</style>
+</html>

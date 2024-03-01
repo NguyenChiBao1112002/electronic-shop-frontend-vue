@@ -1,1 +1,5 @@
-# electronic-shop-frontend-vue
+`npm install`
+
+`npm run dev`
+
+`npm run build`

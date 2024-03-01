@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url(Acumin-BdItPro.woff),
+         url(Acumin-BdPro.woff),
+         url(Acumin-ItPro.woff),
+         url(Acumin-RPro.woff);
+}
+
+@font-face {
+    font-family: 'Pangea';
+    src: url('./fonts/pangea/PangeaAfrikanTrial-Medium.woff2') format('woff2'),
+         url('./fonts/pangea/PangeaAfrikanTrial-Medium.woff') format('woff');
+}
